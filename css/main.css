@@ -1,0 +1,348 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+html {
+     box-sizing: border-box;
+   }
+
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
+
+   body{
+     padding-top: 3em;
+     background-color: #EAE4CB;
+   }
+h2
+  h3
+  h4
+  h5 {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+
+img {
+  max-width: 100%;
+}
+.main-nav {
+  color: #000;
+}
+.page-header {
+  background: #EAE4CB;
+  color: white;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%
+}
+
+.page-header .main-nav {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.page-section {
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn {
+  font-size: 1.25em;
+  text-decoration: none;
+
+}
+
+.btn_sign_up {
+  font-size: 1em;
+  text-decoration: none;
+  color: #CC3524;
+}
+
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.jumbotron {
+  padding: 0;
+  position: relative;
+}
+
+.jumbotron__bg {
+  position: relative;
+  z-index: -10;
+  display: block;
+  width: 100%;
+}
+
+.jumbotron__content {
+  position: absolute;
+  top: 93%;
+  left: 23%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  line-height: .5;
+  color: ivory;
+}
+
+.jumbotron__content h2 {
+  margin-top: 0;
+  font-size: 4em;
+}
+.jumbotron__content .btn {
+  color: ivory;
+  border-color: #fff;
+}
+.jumbotron__content .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.cabin-thumb {
+  position: relative;
+  width: 50%;
+  float: right;
+}
+
+.cabin-thumb:hover {
+  background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+.cabin-thumb img {
+  position: relative;
+  z-index: -10;
+}
+
+.cabin-thumb h4 {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.cabin-thumb:hover h3 {
+  color: #fff;
+}
+
+h3 {
+  color: #5F6270
+}
+.page-footer {
+  text-align: center;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
